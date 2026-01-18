@@ -1,0 +1,24 @@
+:root {
+    /* Color Palette - Premium Red Theme */
+    --primary-color: #D32F2F;        /* Main Red */
+    --primary-dark: #B71C1C;         /* Darker Red for hovers */
+    --primary-light: #FFCDD2;        /* Light Red for backgrounds */
+    --accent-color: #212121;         /* Dark Grey/Black for text/accents */
+    --text-color: #333333;           /* Standard text */
+    --text-light: #757575;           /* Muted text */
+    --white: #FFFFFF;
+    --background-light: #F9F9F9;     /* Off-white background */
+    
+    /* Typography */
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing */
+    --container-width: 1200px;
+    --section-padding: 80px 0;
+    
+    /* Effects */
+    --shadow-sm: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow-md: 0 10px 15px rgba(0,0,0,0.1);
+    --transition: all 0.3s ease;
+}

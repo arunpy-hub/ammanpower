@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amman Power Solutions | Reliable Energy Systems</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ionicons for free premium icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Amman <span>Power</span></div>
+        <div class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="btn-contact">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="hero-content">
+            <span class="hero-tag">Best Quality & Service</span>
+            <h1>Powering Your World with <span style="color: var(--accent);">Reliability</span></h1>
+            <p>From residential installation to industrial power backup, Amman Power Solutions provides efficient, safe,
+                and durable electrical services tailored to your needs.</p>
+
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Get a Quote</a>
+                <a href="#services" class="btn btn-secondary">Explore Services</a>
+            </div>
+        </div>
+
+        <!-- Placeholder for a Hero Image (Right Side) -->
+        <div class="hero-image">
+            <!-- We can add a specialized 3D graphic or image here later -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our Expertise</h2>
+            <p>Comprehensive electrical solutions for home and business.</p>
+        </div>
+
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="service-card">
+                <div class="icon-box">
+                    <ion-icon name="flash-outline"></ion-icon>
+                </div>
+                <h3>Industrial Wiring</h3>
+                <p>Complete heavy-duty wiring solutions for factories and industrial units, ensuring safety compliance
+                    and efficiency.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="service-card">
+                <div class="icon-box">
+                    <ion-icon name="sunny-outline"></ion-icon>
+                </div>
+                <h3>Solar Solutions</h3>
+                <p>Sustainable energy setup including panel installation, inverters, and maintenance for reduced
+                    electricity bills.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="service-card">
+                <div class="icon-box">
+                    <ion-icon name="construct-outline"></ion-icon>
+                </div>
+                <h3>Maintenance & Support</h3>
+                <p>24/7 on-call support for breakdowns, regular servicing, and system upgrades.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="logo" style="color: white; margin-bottom: 1rem;">Amman <span>Power</span></div>
+        <p>&copy; 2026 Amman Power Solutions. All rights reserved.</p>
+    </footer>
+
+    <!-- Simple JS for smooth scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
