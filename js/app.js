@@ -3,6 +3,13 @@ const header = document.querySelector('header');
 const menuToggle = document.getElementById('menuToggle');
 const navLinks = document.getElementById('navLinks');
 
+// Mobile Menu Toggle
+if (menuToggle) {
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+}
+
 // Sticky Header Effect
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {

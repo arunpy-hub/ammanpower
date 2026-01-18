@@ -45,6 +45,13 @@ nav {
     color: var(--primary-color);
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
 .btn-contact {
     background-color: var(--primary-color);
     color: var(--white) !important;
@@ -253,6 +260,11 @@ footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
     font-size: 0.9rem;
+}
+
+/* Fix for footer logo contrast */
+footer .logo {
+    color: var(--white);
 }
 
 /* --- Mobile / Responsive --- */
