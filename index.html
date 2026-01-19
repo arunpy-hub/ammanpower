@@ -82,13 +82,10 @@
                         </div>
                     </div>
                 </div>
+                <!-- Hero Image -->
                 <div class="hero-image-wrapper">
-                    <!-- Placeholder for Hero Image -->
-                    <div
-                        style="width: 100%; height: 400px; background: #eee; border-radius: 20px; display: flex; align-items: center; justify-content: center; color: #888;">
-                        <ion-icon name="flash"
-                            style="font-size: 5rem; color: var(--primary-color); opacity: 0.5;"></ion-icon>
-                    </div>
+                    <img src="assets/hero-image.png" alt="Amman Power Solutions Solar Rooftop"
+                        style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                 </div>
             </div>
         </section>
@@ -218,21 +215,28 @@
                     <p style="margin-bottom: 30px; opacity: 0.8;">Contact us for the best prices on Exide batteries and
                         Solar solutions.</p>
 
-                    <form id="contactForm"
+                    <form id="contactForm" action="https://formsubmit.co/ammanpower.in@gmail.com" method="POST"
                         style="background: white; padding: 30px; border-radius: 10px; color: var(--text-color); text-align: left;">
+                        <!-- Anti-spam & Config -->
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New Enquiry from Website">
+                        <input type="hidden" name="_next" value="https://ammanpower.in">
+
                         <div style="margin-bottom: 15px;">
                             <label style="display: block; margin-bottom: 5px; font-weight: 500;">Name</label>
-                            <input type="text" placeholder="Your Name"
+                            <input type="text" name="name" placeholder="Your Name" required
                                 style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
                         </div>
                         <div style="margin-bottom: 15px;">
                             <label style="display: block; margin-bottom: 5px; font-weight: 500;">Phone Number</label>
-                            <input type="tel" placeholder="Your Phone"
+                            <input type="tel" name="phone" placeholder="Your Phone" required
                                 style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
                         </div>
                         <div style="margin-bottom: 15px;">
                             <label style="display: block; margin-bottom: 5px; font-weight: 500;">Requirement</label>
-                            <select style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                            <select name="requirement"
+                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
                                 <option>Exide Battery</option>
                                 <option>Home UPS / Inverter</option>
                                 <option>Solar Power Plant</option>

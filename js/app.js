@@ -34,20 +34,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form Submission (Mock)
-document.getElementById('contactForm').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const btn = e.target.querySelector('button');
-    const originalText = btn.innerText;
-
-    btn.innerText = 'Sending...';
-    btn.style.opacity = '0.7';
-
-    setTimeout(() => {
-        alert('Thank you! We have received your enquiry and will contact you shortly.');
-        e.target.reset();
-        btn.innerText = originalText;
-        btn.style.opacity = '1';
-    }, 1500);
-});
+// Form Submission handled by FormSubmit.co natively
 
